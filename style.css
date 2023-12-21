@@ -1,0 +1,209 @@
+body{
+	background: gray;
+}
+h1{
+	margin: 40px;
+	font-size:40px;
+	color:white;
+
+}
+h2
+{
+	color:#F01D62;
+	text-indent:10px;
+}
+p
+{
+	padding:10px;
+	line-height:1.5em;
+}
+h3
+{
+	color:#2BAEE4;
+	text-indent:10px;
+}
+h4
+{
+	color:pink;
+	text-indent:10px;
+	
+}
+.wrapper{
+	width:1024px;
+	margin:0 auto;
+	background:green;
+	
+}
+.header{
+	width: 1024px;
+	height:150px;
+	background:blue;
+	float:left;
+}
+.logo{
+	width:224px;
+	height:150px;
+	float:left;
+}
+.logo_img{
+	margin:0px 0px 0px 0px;
+}
+.title{
+	width:800px;
+	height:150px;
+	float:left;
+}
+.menu{
+	width:1024px;
+	height:50px;
+	background:#EEE8E5;
+	float:left;
+}
+ul.nav{
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+ul.nav li{
+	float:left;
+}
+ul.nav li a{
+	text-decoration:none;
+	float: left;
+	margin: 6px;
+	padding: 10px;
+	background:#2BAEE4;
+	color:white;
+}
+ul.nav li a:hover{
+	background:#F01D62;
+}
+ul.nav li a.active{
+	background:#F01D62;
+}
+.content{
+	width:1024px;
+	height: auto; 
+	background:white;
+	float:left;
+	min-height: 548px;
+}
+.slider{
+	width:1024px;
+	height:250px;
+	background:white;
+	float:left;
+}
+.welcome{
+	width:624px;
+	height:278px;
+	background:white;
+	float:left;
+}
+.news{
+	width:400px;
+	height:278px;
+	background:white;
+	float:left;
+}
+.footer{
+	width:1024px;
+	height:40px;
+	background:#333;
+	float:left;
+}
+span
+{
+	color:white;
+	font-size:12px;
+	float:left;
+	margin:10px;
+}
+ul.gallery{
+	list-style:none;
+	margin: 0px;
+	padding: 0px;
+}
+ul.gallery li{
+	float: left;
+	margin:20.5px;
+	float:left;
+	width:300px;
+	height:210px;
+}
+ul.service{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+ul.service li{
+	width: 450px;
+	height: 300px;
+	margin: 31px;
+	background: gray;
+	float: left;
+}
+ul.service li a{
+	text-decoration: none;
+	background: #F01D62;
+	color: white;
+	padding: 10px;
+	float: right;
+	margin: 10px;
+}
+.form{
+	width:624px;
+	height:500px;
+	float:left;
+}
+.address{
+	float: left;
+	width: 400px;
+	height: 200px;
+	
+}
+.map{
+	float: left;
+	width: 400px;
+	height: 300px;
+}
+ul.box{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+ul.box li{
+	width: 600px;
+	min-height: 50px;
+	float:left;
+}
+button{
+	margin: 15px;
+	padding: 15px;
+	height: 42px; 
+	width : 400px;
+	
+
+}
+input, textarea {
+  margin: 15px;
+  padding : 15px;
+  width   : 400px;
+ background: #EEE8E5;
+ border: none;
+  
+}
+label {
+  margin: 5px;
+  width: 15px;
+  padding: 15px;
+  font-size: 20px;
+
+}
+.btn_clr{
+	 background:#2BAEE4;
+	color:white;
+	font-size: 20px;
+	align-items: center;
+
+}
